@@ -93,7 +93,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--Header-Studio-color);
-    margin-right: 93px;
+  margin-right: 93px;
 }
 .footer-Studio {
   font-family: "Raleway", sans-serif;
@@ -181,7 +181,6 @@ body {
   color: var(--Adress-Style-color);
 
   /* padding-left: 0px; */
-
 }
 .adress:hover {
   color: var(--Adress-hover-color);
@@ -219,14 +218,12 @@ body {
   background-color: var(--Main-botton-all-background-color);
   cursor: pointer;
 
-
-  
-/* position: absolute; */
-width: 73px;
-height: 38px;
-/* left: 512px;
+  /* position: absolute; */
+  width: 73px;
+  height: 38px;
+  /* left: 512px;
 top: 174px; */
-border-radius: 4px;
+  border-radius: 4px;
 }
 .main-bottons {
   font-family: "Roboto", sans-serif;
@@ -245,10 +242,9 @@ border-radius: 4px;
   /* position: absolute; */
   width: 125px;
   height: 38px;
-/* left: 512px;
+  /* left: 512px;
 top: 174px; */
-border-radius: 4px;
-
+  border-radius: 4px;
 }
 .main-bottons:hover {
   background-color: var(--Main-bottons-hover-background-color);
@@ -411,33 +407,32 @@ a {
   gap: 30px;
   justify-content: center;
 }
-.main-content-team-containet{
+.main-content-team-containet {
   display: flex;
   gap: 30px;
   justify-content: center;
 }
-.footer-container{
-  
+.footer-container {
   padding-left: 175px;
   padding-top: 60px;
 }
-.header-Web-container{
+.header-Web-container {
   margin-bottom: 20px;
   padding-left: 40px;
 }
-.header-Web-adress-container{
+.header-Web-adress-container {
   margin-bottom: 9px;
 }
-.header-Web-mail-container{
+.header-Web-mail-container {
   margin-bottom: 9px;
 }
-.container-p{
+.container-p {
   margin-bottom: 94px;
 }
-.main-content-review-container{
+.main-content-review-container {
   margin-bottom: 94px;
 }
-.portfolio-container{
+.portfolio-container {
   display: flex;
   /* gap: 30px; */
   /* align-items: center; */
@@ -445,20 +440,20 @@ a {
   margin-top: 94px;
   gap: 8px;
 }
-.portfolio-name{
+.portfolio-name {
   display: none;
 }
-.portfolio-container-deployed{
+.portfolio-container-deployed {
   /* display: -webkit-flex; 
   -webkit-flex-wrap: wrap;  */
-  display: flex;   
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
-.portfolio-bottons{
+.portfolio-bottons {
   margin-bottom: 34px;
 }
-.main-portfolio{
+.main-portfolio {
   margin-bottom: 94px;
 }
