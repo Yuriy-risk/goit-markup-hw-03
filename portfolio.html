@@ -12,7 +12,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Portfolio</title>
@@ -20,15 +20,14 @@
 
   <body>
     <!-- Header ДЗ-3 -->
-    <div class="main">
-      <header>
+      <header class="header-container-portfolio">
         <div class="container">
           <div class="header-container">
             <nav class="header-nav">
               <a href="#" class="header-Web"
                 >Web<span class="header-Studio">Studio</span></a
               >
-              <div>
+              <!-- <div> -->
                 <ul class="header-menu-ul">
                   <li>
                     <a href="./index.html" class="header-menu-studiy">Студія</a>
@@ -38,7 +37,7 @@
                   </li>
                   <li><a href="#" class="header-menu">Контакти</a></li>
                 </ul>
-              </div>
+              <!-- </div> -->
             </nav>
             <ul class="header-menu-ul-mail-tel">
               <li>
@@ -59,14 +58,14 @@
       <!-- Main content -->
       <main>
         <section class="main-portfolio">
-          <div class="section">
-            <div class="container">
+          <!-- <div class="section"> -->
+            <div class="container-portfolio">
               <!-- <div class="portfolio-container"> -->
               <!-- Additional main -->
 
-              <h1 class="portfolio-name">Portfolio</h1>
+              <h1 class="visuallyti-hidder">Portfolio</h1>
               <!-- End additional main -->
-              <div class="portfolio-bottons">
+              <!-- <div class="portfolio-bottons"> -->
                 <ul class="portfolio-container">
                   <li>
                     <button type="button" class="main-botton-all">Усі</button>
@@ -88,7 +87,7 @@
                     </button>
                   </li>
                 </ul>
-              </div>
+              <!-- </div> -->
 
               <ul class="portfolio-container-deployed">
                 <li>
@@ -97,8 +96,10 @@
                     width="370"
                     alt="картинка нетбук з сайтом, три фотографії"
                   />
+                  <div class="img-container-all">
                   <h2 class="main-menu-img">Технокряк</h2>
                   <p class="main-menu-img-content">Веб-сайт</p>
+                </div>
                 </li>
                 <li>
                   <img
@@ -106,10 +107,12 @@
                     width="370"
                     alt="картинка гра в баскетбол"
                   />
+                  <div class="img-container-all">
                   <h2 class="main-menu-img">
                     Постер New Orlean vs Golden Star
                   </h2>
                   <p class="main-menu-img-content">Дизайн</p>
+                </div>
                 </li>
                 <li>
                   <img
@@ -117,8 +120,10 @@
                     width="370"
                     alt="картинка The seabood restaurant"
                   />
+                  <div class="img-container-all">
                   <h2 class="main-menu-img">Ресторан Seafood</h2>
                   <p class="main-menu-img-content">Додаток</p>
+                </div>
                 </li>
                 <li>
                   <img
@@ -126,8 +131,10 @@
                     width="370"
                     alt="картинка навушників"
                   />
+                  <div class="img-container-all">
                   <h2 class="main-menu-img">Проєкт Prime</h2>
                   <p class="main-menu-img-content">Маркетинг</p>
+                </div>
                 </li>
                 <li>
                   <img
@@ -135,8 +142,10 @@
                     width="370"
                     alt="картинка дві коробки"
                   />
+                  <div class="img-container-all">
                   <h2 class="main-menu-img">Проєкт Boxes</h2>
                   <p class="main-menu-img-content">Додаток</p>
+                </div>
                 </li>
                 <li>
                   <img
@@ -144,8 +153,10 @@
                     width="370"
                     alt="картинка з монитором"
                   />
+                  <div class="img-container-all">
                   <h2 class="main-menu-img">Inspiration has no Borders</h2>
                   <p class="main-menu-img-content">Веб-сайт</p>
+                </div>
                 </li>
                 <li>
                   <img
@@ -153,8 +164,10 @@
                     width="370"
                     alt="картинка з книгою"
                   />
+                  <div class="img-container-all">
                   <h2 class="main-menu-img">Видання Limited Edition</h2>
                   <p class="main-menu-img-content">Дизайн</p>
+                </div>
                 </li>
                 <li>
                   <img
@@ -162,8 +175,10 @@
                     width="370"
                     alt="картинка з біркою"
                   />
+                  <div class="img-container-all">
                   <h2 class="main-menu-img">Проєкт LAB</h2>
                   <p class="main-menu-img-content">Маркетинг</p>
+                </div>
                 </li>
                 <li>
                   <img
@@ -171,13 +186,15 @@
                     width="370"
                     alt="картинка з ноутбуком та руками на клавіатурі"
                   />
+                  <div class="img-container-all">
                   <h2 class="main-menu-img">Growing Business</h2>
                   <p class="main-menu-img-content">Додаток</p>
+                </div>
                 </li>
               </ul>
               <!-- </div> -->
             </div>
-          </div>
+          <!-- </div> -->
         </section>
       </main>
 
@@ -185,31 +202,31 @@
       <footer>
         <div class="container">
           <div class="footer-style">
-            <div class="footer-container">
+            <!-- <div class="footer-container"> -->
               <div class="header-Web-container">
                 <a href="#" class="header-Web"
                   >Web<span class="footer-Studio">Studio</span></a
                 >
               </div>
-              <address>
+              <address class="adress-style">
                 <ul>
-                  <li>
-                    <div class="header-Web-adress-container">
+                  <li class="header-Web-adress-container">
+                    <!-- <div > -->
                       <a
                         href="https://goo.gl/maps/v7QcqFKEjncTyCXS9"
                         class="adress"
                         >м. Київ, пр-т Лесі Українки, 26</a
                       >
-                    </div>
+                    <!-- </div> -->
                   </li>
-                  <li>
-                    <div class="header-Web-mail-container">
+                  <li class="header-Web-mail-container">
+                    <!-- <div > -->
                       <a
                         href="mailto:info@devstudio.com"
                         class="adress-mail-tel"
                         >info@devstudio.com</a
                       >
-                    </div>
+                    <!-- </div> -->
                   </li>
                   <li>
                     <a href="tel:+380961111111" class="adress-mail-tel"
@@ -218,10 +235,9 @@
                   </li>
                 </ul>
               </address>
-            </div>
+            <!-- </div> -->
           </div>
         </div>
       </footer>
-    </div>
   </body>
 </html>
