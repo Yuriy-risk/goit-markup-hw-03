@@ -81,6 +81,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--Header-Web-color);
+  margin-right: 93px;
 }
 .header-Studio {
   font-family: "Raleway", sans-serif;
@@ -90,7 +91,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--Header-Studio-color);
-  margin-right: 93px;
+  /* margin-right: 93px; */
 }
 .footer-Studio {
   font-family: "Raleway", sans-serif;
@@ -115,6 +116,11 @@ ul {
   display: block;
 }
 .header-menu-portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
   color: var(--Header-menu-portfolio-color);
   padding: 32px 0;
   display: block;
@@ -217,10 +223,13 @@ ul {
   border: none;
 }
 .main-botton-all:hover {
-  box-shadow: 10px 5px 5px black;
+  /* box-shadow: 10px 5px 5px black; */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  
 }
 .main-botton-all:focus {
-  box-shadow: 10px 5px 5px black;
+  /* box-shadow: 10px 5px 5px black; */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .main-bottons {
   font-family: "Roboto", sans-serif;
@@ -244,12 +253,16 @@ ul {
 .main-bottons:hover {
   background-color: var(--Main-bottons-hover-background-color);
   color: var(--Main-bottons-hover-color);
-  box-shadow: 10px 5px 5px black;
+  /* box-shadow: 10px 5px 5px black; */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 }
 .main-bottons:focus {
   background-color: var(--Main-bottons-hover-background-color);
   color: var(--Main-bottons-hover-color);
-  box-shadow: 10px 5px 5px black;
+  /* box-shadow: 10px 5px 5px black; */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 }
 .main-bottons:active {
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -301,6 +314,7 @@ ul {
 }
 .main-content-team-personally {
   background-color: var(--Main-content-team-personally-background-color);
+  box-shadow: 0px 3px 5px grey;
 }
 .main-content-team-name {
   font-weight: 500;
